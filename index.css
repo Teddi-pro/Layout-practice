@@ -66,9 +66,9 @@ body {
     display: flex;
     flex-direction: column;
     border: 5px solid red;
-    justify-content: flex-start;
-    width: 250px;
-    padding: 25px 25px 25px 0;
+    align-items: center;
+    width: 300px;
+    padding: 25px;
     background-color: rgb(170, 169, 169);
 }
 
@@ -122,7 +122,6 @@ body {
 
 .picText {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 25px;
 }
@@ -133,6 +132,7 @@ body {
     text-align: center;
     width: 150px;
     height: 100px;
+    margin: 0 25px 0 0;
 }
 
 .container__first-text {
@@ -141,6 +141,7 @@ body {
     text-align: center;
     width: 400px;
     height: 100px;
+    margin: 0 0 0 65px;
 }
 
 .container__second-text {
