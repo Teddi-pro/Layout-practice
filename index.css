@@ -120,7 +120,7 @@ body {
     height: 150px;
 }
 
-.picText {
+.inner {
     display: flex;
     align-items: center;
     padding: 25px;
