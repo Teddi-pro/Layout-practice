@@ -1,23 +1,210 @@
-.container {
-    background-color: yellow;
+body {
+    background-color: grey;
+}
+
+.header {
     border: 5px solid red;
     display: flex;
-    flex-direction: column;
-    
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(170, 169, 169);
+    padding: 25px;
 }
-.upmenu {
+
+.header__img {
     width: 150px;
     height: 100px;
     border: 5px solid red;
-    margin: 1px;
-    
+    margin: 25px;
+    background-color: rgb(101, 101, 255);
 }
-.logo {
-    
+
+.header__row {
+    display: flex;
+    align-items: center;
 }
-.contact {
-    align-self: center;
+
+.header__text {
+    width: 150px;
+    height: 100px;
+    border: 5px solid red;
+    margin: 25px;
+    background-color: yellow;
 }
-.autoriz {
-    
+
+.header__button {
+    width: 150px;
+    height: 100px;
+    border: 5px solid red;
+    margin: 25px;
+    background-color: rgb(114, 245, 114);
+}
+
+.nav {
+    border: 5px solid red;
+    background-color: rgb(255, 97, 97);
+    text-align: center;
+    padding: 25px;
+    margin: 25px 0 25px 0;
+}
+
+.nav__under {
+    border: 5px solid red;
+    background-color: rgb(255, 97, 97);
+    text-align: center;
+    padding: 25px;
+    margin: 25px 0 25px 0;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+    align-items: center;
+    width: 300px;
+    padding: 25px;
+    background-color: rgb(170, 169, 169);
+}
+
+.main__menu {
+    border: 5px solid red;
+    background-color: rgb(255, 97, 97);
+    text-align: center;
+    margin: 25px;
+    width: 150px;
+    height: 400px;
+}
+
+.main__form {
+    border: 5px solid red;
+    background-color: rgb(255, 97, 97);
+    text-align: center;
+    margin: 25px;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(114, 245, 114);
+}
+
+.main__aside {
+    border: 5px solid red;
+    background-color: rgb(255, 97, 97);
+    text-align: center;
+    margin: 25px;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(114, 245, 114);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+    justify-content: flex-start;
+    width: 750px;
+    padding: 25px;
+    background-color: rgb(170, 169, 169);
+}
+
+.container__banner {
+    display: flex;
+    justify-content: right;
+    border: 5px solid red;
+    background-color: rgb(101, 101, 255);
+    text-align: center;
+    margin: 75px 25px 25px 25px;
+    width: 650px;
+    height: 150px;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.container__picture {
+    border: 5px solid red;
+    background-color: rgb(101, 101, 255);
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    margin: 0 25px 0 0;
+}
+
+.container__first-text {
+    border: 5px solid red;
+    background-color: yellow;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    margin: 0 0 0 65px;
+}
+
+.container__second-text {
+    border: 5px solid red;
+    background-color: yellow;
+    text-align: center;
+    margin: 25px;
+    width: 650px;
+    height: 350px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid red;
+    width: 350px;
+    padding: 25px;
+    background-color: rgb(170, 169, 169);
+}
+
+.box__text {
+    border: 5px solid red;
+    background-color: yellow;
+    margin: 75px 25px 25px 25px;
+    text-align: center;
+    width: 250px;
+    height: 400px;
+}
+
+.box__aside {
+    border: 5px solid red;
+    background-color: rgb(114, 245, 114);
+    text-align: center;
+    width: 250px;
+    height: 275px;
+}
+
+.footer {
+    border: 5px solid red;
+    background-color: rgb(170, 169, 169);
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer__text {
+    width: 150px;
+    height: 100px;
+    border: 5px solid red;
+    background-color: yellow;
+}
+
+.window {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.close {
+    width:16px;
+    height: 16px;
 }

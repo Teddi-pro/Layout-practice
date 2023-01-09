@@ -9,29 +9,37 @@
   <header>
     <div class="header">
       <img class="header__img" src="" alt="Логотип">
-      <P class="header__text">Контактная информация</P>
-      <button class="header__button">Авторизация</button>
+      <div class="header__row">
+        <div class="header__text">Контактная информация</div>
+      <div class="header__button">Авторизация</div>
+    </div>
   </div>
   </header>
 
   <nav class="nav">Верхнее меню</nav>
 
   <main>
+    <div class="grid">
     <div class="main">
       <nav class="main__menu">Меню каталог</nav>
       <form class="main__form" action="" method="">Опрос</form>
       <aside class="main__aside">Информер</aside>
     </div>
     <div class="container">
-      <img class="container__banner" src="" alt="Баннер">
+      <div id="pick" class="container__banner">
+        <img id="cross" class="close" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj_RlDxtZQioJlsWYPPUSSa4BUHA1c0mRXLhyrogdUtg&s">
+      </div>
+      <div class="inner">
       <img class="container__picture" src="" alt="Картинка">
       <p class="container__first-text">Текст</p>
+      </div>
       <p class="container__second-text">Текст</p>
     </div>
     <div class="box">
       <p class="box__text">Текст</p>
       <aside class="box__aside">Информер</aside>
     </div>
+  </div>
   </main>
 
     <nav class="nav__under">Нижнее меню</nav>
@@ -39,5 +47,19 @@
   <footer class="footer">
     <p class="footer__text">Контактная информация</p>
   </footer>
+  <script>
+
+    let imgs = document.querySelector(".container__banner")
+    let cross = document.getElementById("cross")
+
+    function handleClick (event) {
+       event.stopPropagation()
+       imgs.classList.toggle("window")
+    }
+    imgs.addEventListener('click', handleClick)
+    cross.addEventListener('click', handleClick)
+
+
+  </script>
 </body>
 </html>
